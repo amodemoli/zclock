@@ -5,7 +5,7 @@ Wants=network-online.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/linux.sh
+ExecStart=/usr/local/bin/zima_clock.sh
 RemainAfterExit=yes
 
 [Install]

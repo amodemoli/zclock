@@ -29,7 +29,11 @@ sudo systemctl enable zima_clock.service
 ```bash
 sudo systemctl status zima_clock.service
 ```
-10) done. now you can restart your system and connect to wifi or... (wait for update automatic your clock)
+10) run this command on terminal (and enter your timezone
+```bash
+sudo timedatectl set-timezone Asia/Tehran
+```
+11) done. now you can restart your system and connect to wifi or... (wait for update automatic your clock)
 
 > Discord: @ir.de <br>
 > Website: [demolition.ir](http://demolition.ir) <br>

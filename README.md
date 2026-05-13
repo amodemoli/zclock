@@ -1,8 +1,8 @@
 ## The Zima Clock Fixer
 zima clock fixer maded by _demolition_ in zima development <br>
-this skript maded for update automatic time/date. this skript coded for linux. only linux!<br>
-if your system cannot update automatic time/date you need to this skript <br>
-this sktipt connects to [google.com](https://google.com) and get lastles time/date.
+this skript maded for update automatic time/date. this script coded for linux. only linux!<br>
+if your system cannot update automatic time/date you need to this script <br>
+this script connects to [google.com](https://google.com) and get lastles time/date.
 
 [»] **Install For Linux**:
 1) Download ``linux.sh`` and ``linux.service`` file from repositoreie.

@@ -2,7 +2,7 @@
 zima clock fixer maded by _demolition_ in zima development <br>
 this skript maded for update automatic time/date. this script coded for linux. only linux!<br>
 if your system cannot update automatic time/date you need to this script <br>
-this script connects to [google.com](https://google.com) and get lastles time/date.
+this script connects to [google.com](https://google.com) & cloud flare & amazon for get lastles time/date.  you can edit websites/limits/timeout's in ``linux.sh``. 
 
 [»] **Install For Linux**:
 1) Download ``linux.sh`` and ``linux.service`` file from repositoreie.

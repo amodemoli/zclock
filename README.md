@@ -25,6 +25,10 @@ sudo nano /etc/systemd/system/zima_clock.service
 ```bash
 sudo systemctl enable zima_clock.service
 ```
+if enable not worked use:
+```bash
+sudo systemctl status zima_clock.service
+```
 9) now you can see service stats with this command:
 ```bash
 sudo systemctl status zima_clock.service

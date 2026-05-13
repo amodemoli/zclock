@@ -1,2 +1,37 @@
-# clock
-automatic time and date updater for linux. if your system cannot update time and date you need to this app
+## The Zima Clock Fixer
+zima clock fixer maded by _demolition_ in zima development <br>
+this skript maded for update automatic time/date. this skript coded for linux. only linux!<br>
+if your system cannot update automatic time/date you need to this skript <br>
+this sktipt connects to [google.com](https://google.com) and get lastles time/date.
+
+[»] **Install For Linux**:
+1) Download ``linux.sh`` and ``linux.service`` file from repositoreie.
+2) run this command on terminal and paste ``linux.sh`` contents.
+```bash
+sudo nano /usr/local/bin/zima_clock.sh
+```
+3) push Ctrl + X key -> type Y. and prees ENTER (for save zima_clock.sh new content)
+4) run this command on terminal:
+```bash
+sudo chmod +x /usr/local/bin/zima_clock.sh
+```
+5) and run this command for add .service file:
+```bash
+sudo nano /etc/systemd/system/zima_clock.service
+```
+6) paste ``linux.service`` file contents
+7) push Ctrl + X key -> type Y. and prees ENTER (for save zima_clock.service new content)
+8) now, you need run this command:
+```bash
+sudo systemctl enable zima_clock.service
+```
+9) now you can see service stats with this command:
+```bash
+sudo systemctl status zima_clock.service
+```
+10) done. now you can restart your system and connect to wifi or... (wait for update automatic your clock)
+
+> Discord: @ir.de <br>
+> Website: [demolition.ir](http://demolition.ir) <br>
+> Telegram: [@amodemoli](https://t.me/amodemoli) <br>
+> Bale(Irainian Messager): @demolition <br>
